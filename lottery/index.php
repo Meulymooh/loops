@@ -46,6 +46,7 @@
 
 		<div class="row">
 
+			<!--Send choice via POST method--> 
 			<form action="lottery.php" method="post">
 
 				<div class="col col-md-3">

@@ -53,8 +53,9 @@
         </div>
 
         <div class="row justify-content-center">
-
+        
             <div class="col col-md-6 center">
+                <!--Echo the choice made by the user-->
                 <?php
                     $emoji = $_POST ['emoji'];
                     if ($_POST ['emoji'] = "pizza") {
@@ -64,6 +65,7 @@
             </div>
 
             <div class="col col-md-6">
+                <!--Echo the random-generated dish-->
                 <?php
                     $emojis = array("pizza","hamburger", "fries");
                     shuffle($emojis);
@@ -85,7 +87,7 @@
         </div>   
 
         <div class="row">
-
+            <!--Win or lose message-->
             <?php
                 if ($emojis[$i] == $emoji) {
                     echo "<h4 style='color:red'>The waiter messed up, call him and order again.</h4><br/><br/><a href='index.php'><img id='waiter' src='img/waiter.png' alt='Waiter'></a>";
