@@ -1,0 +1,94 @@
+/* General styling */
+
+body {
+background-color: #e6e6e6;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;	
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;	
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;	
+	margin-right: 10px;
+}
+
+p {
+	margin-right: 10px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+	width: 80%;
+	align-content: center;
+	margin: auto;
+}
+
+.wrapper {
+	border: 1px solid grey;
+	width: 50%;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.wrapper-title {
+	width: 50%;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.wrapper-instruction {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.row {
+	margin: 3%;
+	text-align: center;
+}
+
+.col {
+	text-align: center;
+}
+
+.emoji {
+	width: 70px;
+	display: inline-block;
+}
+
+.check {
+	display: inline-block;
+}
+
+.message {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
+
+.output {
+	width: 100px;
+	height: 150px;
+}
+
+#divButton {
+	margin-top: 30px;
+}
+
+#waiter {
+	width: 70px;
+	margin-top: -30px;
+}
